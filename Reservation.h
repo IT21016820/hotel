@@ -11,7 +11,7 @@ private:
 
 public:
   Reservation();
-  Reservation(int rdate);
+  Reservation(int rid,int rdate);
   void displayReservationDetais();
   void addhalldtails()
   {
