@@ -9,6 +9,7 @@ Reservation::Reservation()
 
 Reservation::Reservation(int rid, int rdate)
 {
+  reservationID= rid;
   date = rdate;
 }
 
