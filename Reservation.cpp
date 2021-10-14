@@ -7,7 +7,7 @@ Reservation::Reservation()
 {
 }
 
-Reservation::Reservation(int rdate)
+Reservation::Reservation(int rid, int rdate)
 {
   date = rdate;
 }
